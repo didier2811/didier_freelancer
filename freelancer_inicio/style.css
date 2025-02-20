@@ -1,0 +1,47 @@
+:root{
+    --negro: #00100b;
+    --gris:  #7e938b;
+    --vOscuro: #72d875;
+    --vClaro: #96ff7d;
+    --VClarito:#c3f3c0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Manjari", serif;
+}
+
+.ubicacion{
+    width: 9rem;
+    height: 9rem;
+    stroke: #c3f3c0;
+}
+
+.title{
+    text-align: center;
+    font-size: 3.8rem;
+
+}
+
+.title span{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.contenedor{
+    width: 120rem;
+    margin: 0 auto ;
+}
+
+.nav_bg{
+    background-color: var(--vOscuro) ;
+}
+
+.navegacion_principal{
+    
+}
+
