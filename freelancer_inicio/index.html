@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,9 @@
     <link rel="preload" href="./normalize.css" as="style">
     <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Manjari:wght@100;400;700&display=swap" rel="stylesheet">
     <link rel="preload" href="./style.css" as="style">
-    <link rel="stylesheet" href="./style.css"> 
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <header>
         <h1 class="title">Didier Robles <span>Freelancer</span></h1>
@@ -23,91 +25,120 @@
             <a href="#">Contacto</a>
         </nav>
     </div>
-    
 
     <section class="hero">
-        <div  class="contenido_hero">
-            <h2 class="title">Diseño y Desarrollo Web Freelancer</h2>
-            <svg class="ubicacion"  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="#c3f3c0"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
-            </svg>
-            <p>Pueblo Bello, Cesar</p>
-            <a href="#">Contactar</a>
+        <div class="contenido_hero">
+            <h2>Diseño y Desarrollo Web Freelancer</h2>
+            <div class="ubicacion_parrafo">
+                <svg class="ubicacion" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c3f3c0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+                <p>Pueblo Bello, Cesar</p>
+            </div>
+            <a class="boton" href="#">Contactar</a>
         </div>
-        
     </section>
 
-    <main>
+    <main class="contenedor sombra">
         <h2>Mis Servicios</h2>
 
+        <div class="servicios">
+            <section class="servicio">
+                <h3>Diseño Web</h3>
+                <div class="iconos">
+                    <svg class="icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c3f3c0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-palette">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M12 21a9 9 0 0 1 0 -18c4.97 0 9 3.582 9 8c0 1.06 -.474 2.078 -1.318 2.828c-.844 .75 -1.989 1.172 -3.182 1.172h-2.5a2 2 0 0 0 -1 3.75a1.3 1.3 0 0 1 -1 2.25" />
+                        <path d="M8.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                        <path d="M12.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                        <path d="M16.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                    </svg>
+                </div>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec ut ipsum dolor. Nam pharetra libero a orci sodales placerat.</p>
+            </section>
+
+            <section class="servicio">
+                <h3>E-Commerce</h3>
+                <div class="iconos">
+                    <svg class="icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c3f3c0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-credit-card-pay">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M12 19h-6a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v4.5" />
+                        <path d="M3 10h18" />
+                        <path d="M16 19h6" />
+                        <path d="M19 16l3 3l-3 3" />
+                        <path d="M7.005 15h.005" />
+                        <path d="M11 15h2" />
+                    </svg>
+                </div>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec ut ipsum dolor. Nam pharetra libero a orci sodales placerat.</p>
+            </section>
+
+            <section class="servicio">
+                <h3>Aplicaciones Web</h3>
+                <div class="iconos">
+                    <svg class="icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c3f3c0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-brand-android">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M4 10l0 6" />
+                        <path d="M20 10l0 6" />
+                        <path d="M7 9h10v8a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-8a5 5 0 0 1 10 0" />
+                        <path d="M8 3l1 2" />
+                        <path d="M16 3l-1 2" />
+                        <path d="M9 18l0 3" />
+                        <path d="M15 18l0 3" />
+                    </svg>
+
+                    <svg class="icons" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#c3f3c0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-apple">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M4 11.319c0 3.102 .444 5.319 2.222 7.978c1.351 1.797 3.156 2.247 5.08 .988c.426 -.268 .97 -.268 1.397 0c1.923 1.26 3.728 .809 5.079 -.988c1.778 -2.66 2.222 -4.876 2.222 -7.977c0 -2.661 -1.99 -5.32 -4.444 -5.32c-1.267 0 -2.41 .693 -3.22 1.44a.5 .5 0 0 1 -.672 0c-.809 -.746 -1.953 -1.44 -3.22 -1.44c-2.454 0 -4.444 2.66 -4.444 5.319" />
+                        <path d="M7 12c0 -1.47 .454 -2.34 1.5 -3" />
+                        <path d="M12 7c0 -1.2 .867 -4 3 -4" />
+                    </svg>
+                </div>
+                <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec ut ipsum dolor. Nam pharetra libero a orci sodales placerat.</p>
+            </section>
+        </div>
+
+
         <section>
-            <h3>Diseño Web</h3>
+            <h2>Contacto</h2>
+            <form class="formulario">
+                <fieldset>
+                    <legend>contactame llenando todos los campos</legend>
 
-            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="#c3f3c0"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-palette"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 21a9 9 0 0 1 0 -18c4.97 0 9 3.582 9 8c0 1.06 -.474 2.078 -1.318 2.828c-.844 .75 -1.989 1.172 -3.182 1.172h-2.5a2 2 0 0 0 -1 3.75a1.3 1.3 0 0 1 -1 2.25" /><path d="M8.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M12.5 7.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" /><path d="M16.5 10.5m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-            </svg>
+                    <div class="encuesta">                    
+                        <div class="pregunta">
+                            <label>nombre</label>
+                            <input class="inputs" type="text" placeholder="tu nombre">
+                        </div>
 
-            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec ut ipsum dolor. Nam pharetra libero a orci sodales placerat.</p>
-        </section>
+                        <div class="pregunta">
+                            <label>telefono</label>
+                            <input class="inputs"   type="tel" placeholder="tu telefono">
+                        </div>
 
-        <section>
-            <h3>E-Commerce</h3>
+                        <div class="pregunta">
+                            <label>correo</label>
+                            <input class="inputs"  type="email" placeholder="tu email">
+                        </div>
 
-            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="#c3f3c0"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-credit-card-pay"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 19h-6a3 3 0 0 1 -3 -3v-8a3 3 0 0 1 3 -3h12a3 3 0 0 1 3 3v4.5" /><path d="M3 10h18" /><path d="M16 19h6" /><path d="M19 16l3 3l-3 3" /><path d="M7.005 15h.005" /><path d="M11 15h2" />
-            </svg>
+                        <div class="pregunta">
+                            <label>mensaje</label>
+                            <textarea></textarea>
+                        </div>
+                    </div> 
 
-            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec ut ipsum dolor. Nam pharetra libero a orci sodales placerat.</p>
-        </section>
-
-        <section>
-            <h3>Aplicaciones Web</h3>
-
-            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="#c3f3c0"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-android"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 10l0 6" /><path d="M20 10l0 6" /><path d="M7 9h10v8a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-8a5 5 0 0 1 10 0" /><path d="M8 3l1 2" /><path d="M16 3l-1 2" /><path d="M9 18l0 3" /><path d="M15 18l0 3" />
-            </svg>
-
-            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="#c3f3c0"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-apple"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 11.319c0 3.102 .444 5.319 2.222 7.978c1.351 1.797 3.156 2.247 5.08 .988c.426 -.268 .97 -.268 1.397 0c1.923 1.26 3.728 .809 5.079 -.988c1.778 -2.66 2.222 -4.876 2.222 -7.977c0 -2.661 -1.99 -5.32 -4.444 -5.32c-1.267 0 -2.41 .693 -3.22 1.44a.5 .5 0 0 1 -.672 0c-.809 -.746 -1.953 -1.44 -3.22 -1.44c-2.454 0 -4.444 2.66 -4.444 5.319" /><path d="M7 12c0 -1.47 .454 -2.34 1.5 -3" /><path d="M12 7c0 -1.2 .867 -4 3 -4" />
-            </svg>
-
-            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec ut ipsum dolor. Nam pharetra libero a orci sodales placerat.</p>
+                    <div>
+                        <input class="boton" type="submit" value="enviar">
+                    </div>
+                </fieldset>
+            </form>
         </section>
     </main>
-    
-    <section>
-        <h2>Contacto</h2>
-        <form >
-            <fieldset>
-                
-                <legend>contactame llenando todos los campos</legend>
-
-                <div>
-                    <label >nombre</label>
-                    <input type="text" placeholder="tu nombre">
-                </div>
-                
-                <div>
-                    <label >telefono</label>
-                    <input type="tel" placeholder="tu telefono">
-                </div>
-                
-                <div>
-                    <label >correo</label>
-                    <input type="email" placeholder="tu email">
-                </div>
-                
-                <div>
-                    <label >mensaje</label>
-                    <textarea ></textarea>
-                </div>
-
-                <div>
-                    <input type="submit" value="enviar">
-                </div>
-
-            </fieldset>
-        </form>
-
-    </section>
-
-    <footer>
-        <p>Todos los derechos reservados</p>
+    <footer class="footer">
+        <p>Todos los derechos reservados. Didier Robles Freelancer</p>
     </footer>
 </body>
+
 </html>
